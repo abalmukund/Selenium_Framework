@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11808417200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "pom-and-cucumber-test;customer-place-an-order-by-purchasing-an-item-from-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7223053500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8863324500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6085826400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for \"dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dress",
+                  "offset": 17
+                }
+              ],
+              "location": "HomePageSteps.user_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8401010800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "choose \"TestCase2\" to buy the first item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase2",
+                  "offset": 8
+                }
+              ],
+              "location": "ProductPageSteps.choose_to_buy_the_first_item(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3363563900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "CartPageSteps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1041735500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter \"TestCase2\" personal details on checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase2",
+                  "offset": 7
+                }
+              ],
+              "location": "CheckoutPageSteps.enter_personal_details_on_checkout_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2566975600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "place the order",
+            "match": {
+              "location": "CheckoutPageSteps.place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60881200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat StepDefinition.ConfirmationPageSteps.verify_the_order_details(ConfirmationPageSteps.java:23)\r\n\tat ✽.Then verify the order details(test3.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "verify the order details",
+            "match": {
+              "location": "ConfirmationPageSteps.verify_the_order_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "POM and Cucumber Test",
+    "description": "Description: The purpose of this feature file is to implment POM with Cucmber",
+    "id": "pom-and-cucumber-test",
+    "keyword": "Feature",
+    "uri": "test3.feature"
+  }
+]

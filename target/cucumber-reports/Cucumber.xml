@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.791109">
+<testcase classname="POM and Cucumber Test" name="Customer place an order by purchasing an item from search" time="50.791109">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.ConfirmationPageSteps.verify_the_order_details(ConfirmationPageSteps.java:23)&#13;&#10;&#9;at ✽.Then verify the order details(test3.feature:11)&#13;&#10;"><![CDATA[Given user is on Home Page..................................................passed
+When user search for "dress"................................................passed
+And choose "TestCase2" to buy the first item................................passed
+And moves to checkout from mini cart........................................passed
+And enter "TestCase2" personal details on checkout page.....................passed
+And place the order.........................................................passed
+Then verify the order details...............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.ConfirmationPageSteps.verify_the_order_details(ConfirmationPageSteps.java:23)
+	at ✽.Then verify the order details(test3.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

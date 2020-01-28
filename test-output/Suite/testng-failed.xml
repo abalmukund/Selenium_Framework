@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="First End to End Test Flow(failed)">
+    <parameter name="testCaseID" value="TestCase1"/>
+    <classes>
+      <class name="TestNGClasses.EndToEndFlow">
+        <methods>
+          <include name="firstTest" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestNGClasses.EndToEndFlow -->
+    </classes>
+  </test> <!-- First End to End Test Flow(failed) -->
+  <test thread-count="5" name="Second End to End Test Flow(failed)">
+    <parameter name="testCaseID" value="TestCase2"/>
+    <classes>
+      <class name="TestNGClasses.EndToEndFlow">
+        <methods>
+          <include name="secondTest" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestNGClasses.EndToEndFlow -->
+    </classes>
+  </test> <!-- Second End to End Test Flow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

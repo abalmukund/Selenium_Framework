@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101739" started-at="2019-12-30T16:08:37 IST" finished-at="2019-12-30T16:10:19 IST">
+    <groups>
+    </groups>
+    <test name="First End to End Test Flow" duration-ms="48932" started-at="2019-12-30T16:08:37 IST" finished-at="2019-12-30T16:09:26 IST">
+      <class name="TestNGClasses.EndToEndFlow">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGClasses.EndToEndFlow@15d0c81b]" name="beforeTest" is-config="true" duration-ms="11244" started-at="2019-12-30T16:08:37 IST" finished-at="2019-12-30T16:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="firstTest(java.lang.String)[pri:0, instance:TestNGClasses.EndToEndFlow@15d0c81b]" name="firstTest" duration-ms="36614" started-at="2019-12-30T16:08:49 IST" finished-at="2019-12-30T16:09:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGClasses.EndToEndFlow@15d0c81b]" name="AfterMethod" is-config="true" duration-ms="1036" started-at="2019-12-30T16:09:25 IST" finished-at="2019-12-30T16:09:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- TestNGClasses.EndToEndFlow -->
+    </test> <!-- First End to End Test Flow -->
+    <test name="Second End to End Test Flow" duration-ms="52785" started-at="2019-12-30T16:09:26 IST" finished-at="2019-12-30T16:10:19 IST">
+      <class name="TestNGClasses.EndToEndFlow">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGClasses.EndToEndFlow@78e67e0a]" name="beforeTest" is-config="true" duration-ms="9723" started-at="2019-12-30T16:09:26 IST" finished-at="2019-12-30T16:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="secondTest(java.lang.String)[pri:0, instance:TestNGClasses.EndToEndFlow@78e67e0a]" name="secondTest" duration-ms="40864" started-at="2019-12-30T16:09:36 IST" finished-at="2019-12-30T16:10:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGClasses.EndToEndFlow@78e67e0a]" name="AfterMethod" is-config="true" duration-ms="2197" started-at="2019-12-30T16:10:17 IST" finished-at="2019-12-30T16:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- TestNGClasses.EndToEndFlow -->
+    </test> <!-- Second End to End Test Flow -->
+  </suite> <!-- Suite -->
+</testng-results>

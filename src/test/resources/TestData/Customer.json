@@ -1,0 +1,36 @@
+[
+	{
+		"TestCaseID": "TestCase1",
+		"firstName": "Lakshay",
+		"lastName": "Sharma",
+		"age": 35,
+		"emailAddress": "Lakshay@Gmail.com",
+		"streetAddress": "Shalimar Bagh",
+		"city": "Delhi",
+		"postCode": "110088",
+		"state": "Delhi",
+		"country": "India",
+		"county": "Delhi",
+		"home": "012345678",
+		"mob": "0987654321",
+		"productColor": "White",
+		"productSize": "Medium"
+	},
+	{
+		"TestCaseID": "TestCase2",
+		"firstName": "Virender",
+		"lastName": "Singh",
+		"age": 35,
+		"emailAddress": "Virender@Gmail.com",
+		"streetAddress": "Palam Vihar",
+		"city": "Gurgaon",
+		"postCode": "122345",
+		"state": "Haryana",
+		"country": "India",
+		"county": "Delhi",
+		"home": "232334343",
+		"mob": "3533434343",
+		"productColor": "White",
+		"productSize": "Small"
+	}
+]

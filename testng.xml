@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="First End to End Test Flow">
+		<parameter name="testCaseID" value="TestCase1" />
+		<classes>
+			<class name="TestNGClasses.EndToEndFlow">
+				<methods>
+					<include name="firstTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Second End to End Test Flow">
+		<!-- This parameter will be passed this test only -->
+		<parameter name="testCaseID" value="TestCase2" />
+		<classes>
+			<class name="TestNGClasses.EndToEndFlow">
+				<methods>
+					<include name="secondTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
