@@ -1,0 +1,3 @@
+# Selenium_Framework
+# Description
+This Selenium framework is based on Cucumber and TestNG wrappers. Based on requirement and few modifications user can use it as pure Cucumber or TestNG. This framework have basic classes to use test data from either JSON or Excel. This framework is just a basic idea which can be used to create specific framework as per requirement. For further details please refer to the README.md (In Progress) file. In order to understand the framework user should have proper understanding of Java, Selenium, JSON and Page Object Model concept. Few sample test cases are written in both Cucumber and TestNG to understand the flow. Feel free to debug the framework to understand the flow.
